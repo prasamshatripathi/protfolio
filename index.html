@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prasamsha's protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li:hover {
+        color: rgb(86, 86, 243);
+        font-size: 1.04rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgb(103, 34, 167);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(103, 34, 167);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 78vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 40px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        width: 150px;
+        top: 75px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color: #0d0144;
+        
+       
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Prasamsha's protfolio</div>
+        <div class="right">
+          <ul>
+            <a href="/"><li>Home</li></a>
+            <a href="/"><li>About</li></a>
+            <a href="/"><li>Services</li></a>
+            <a href="/"><li>Projects</li></a>
+            <a href="/"><li>Contacts</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi ,My name is <span class="purple">Prasamsha</span>
+
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <div class="rightSection"><img src="bg.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">HTML Developer (2022-2023)</div>
+
+            <div class="vertical-desc">
+              I have experience in HTML development, creating responsive and
+              user-friendly web pages using HTML5, CSS3, and JavaScript.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">javascript (2023-2024)</div>
+
+            <div class="vertical-desc">
+              Javascript is a versatile programming language that enables dynamic
+              and interactive web content, enhancing user experiences on websites.I have worked on
+              various projects utilizing JavaScript to create engaging web
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">node.js (2024-2025)</div>
+
+            <div class="vertical-desc">
+              Nodejs is a powerful runtime environment that allows developers to
+              build scalable and efficient server-side applications using JavaScript.
+              I have experience in developing backend services and APIs with Node.js.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">React (2025)</div>
+
+            <div class="vertical-desc">
+             React is a popular JavaScript library for building user interfaces, known
+              for its component-based architecture and efficient rendering.
+              I have worked on creating dynamic and responsive web applications
+              using React.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">python (django)(present)</div>
+
+            <div class="vertical-desc">
+              Currently, I am learning Python with Django framework, which is a
+              powerful combination for web development. Python is known for its simplicity
+              and readability, while Django provides a robust framework for building  scalable web applications. 
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Prasamsha's Developer protfolio </h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home </li>
+            <li>About </li>
+            <li>Services </li>
+            <li>contact </li>
+          </ul>
+        </div>
+        <div class="footer-third"> <ul>
+            <li>Home </li>
+            <li>About </li>
+            <li>Services </li>
+            <li>contact </li>
+          </ul></div>
+        <div class="footer-fourth"> <ul>
+            <li>Home </li>
+            <li>About </li>
+            <li>Services </li>
+            <li>contact </li>
+          </ul></div>
+
+        
+      </div>
+      <div class="footer-rights">www.prasamshasprotfolio.com | All rights reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--typed js website  bata CDN use gareko "animated js library"!-->
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
